@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Baguette"
+Date "2020-02-23"
+Rev "r02"
+Comp "Nuclear Lighthouse Studios"
+Comment1 "CC BY-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Valve:ECC83 U1
+U 2 1 5ADF2EDA
+P 4750 4100
+F 0 "U1" H 4978 4146 50  0000 L CNN
+F 1 "ECC83" H 4978 4055 50  0000 L CNN
+F 2 "Valves:VALVE-NOVAL_P" H 5020 3700 50  0001 C CNN
+F 3 "" H 4750 4100 50  0001 C CNN
+	2    4750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Valve:ECC83 U1
+U 3 1 5ADF2F1F
+P 6550 3250
+F 0 "U1" H 6778 3213 50  0000 L CNN
+F 1 "ECC83" H 6778 3122 50  0000 L CNN
+F 2 "Valves:VALVE-NOVAL_P" H 6820 2850 50  0001 C CNN
+F 3 "" H 6550 3250 50  0001 C CNN
+	3    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5ADF3DA9
+P 3900 4100
+F 0 "J2" H 3872 4124 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3872 4033 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3900 4100 50  0001 C CNN
+F 3 "" H 3900 4100 50  0001 C CNN
+	1    3900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Valve:ECC83 U1
+U 1 1 5ADF2E97
+P 4750 3050
+F 0 "U1" H 4978 3096 50  0000 L CNN
+F 1 "ECC83" H 4978 3005 50  0000 L CNN
+F 2 "Valves:VALVE-NOVAL_P" H 5020 2650 50  0001 C CNN
+F 3 "" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3700 4300 3700
+Wire Wire Line
+	4300 3700 4300 4000
+Wire Wire Line
+	4300 4000 4100 4000
+Wire Wire Line
+	4450 4100 4100 4100
+Wire Wire Line
+	4650 4500 4300 4500
+Wire Wire Line
+	4300 4500 4300 4200
+Wire Wire Line
+	4300 4200 4100 4200
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5ADF43EB
+P 3900 3050
+F 0 "J1" H 3872 3074 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3872 2983 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2650 4300 2650
+Wire Wire Line
+	4300 2650 4300 2950
+Wire Wire Line
+	4300 2950 4100 2950
+Wire Wire Line
+	4450 3050 4100 3050
+Wire Wire Line
+	4650 3450 4300 3450
+Wire Wire Line
+	4300 3450 4300 3150
+Wire Wire Line
+	4300 3150 4100 3150
+NoConn ~ 6550 3700
+Wire Wire Line
+	6650 3700 6650 3900
+Wire Wire Line
+	6450 3900 6450 3700
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5ADF3D77
+P 6650 4100
+F 0 "J4" V 6804 4012 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 6713 4012 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6650 4100 50  0001 C CNN
+F 3 "~" H 6650 4100 50  0001 C CNN
+	1    6650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5ADF3CF0
+P 6450 4100
+F 0 "J3" V 6604 4144 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 6513 4144 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6450 4100 50  0001 C CNN
+F 3 "~" H 6450 4100 50  0001 C CNN
+	1    6450 4100
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
