@@ -1,4 +1,7 @@
 gerber/
 *-bak
+*.bak
 *-cache
-*-cache.lib
+*.zip
+*.pdf
+*.step
