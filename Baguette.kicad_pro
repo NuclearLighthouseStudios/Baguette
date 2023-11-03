@@ -427,7 +427,7 @@
         "name": "Heater",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
+        "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
@@ -437,45 +437,11 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-Pad9)"
-      },
-      {
-        "netclass": "Heater",
-        "pattern": "Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Heater",
-        "pattern": "Net-(J4-Pad1)"
-      }
-    ]
+    "netclass_assignments": {
+      "Net-(J3-Pin_1)": "Heater",
+      "Net-(J4-Pin_1)": "Heater"
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

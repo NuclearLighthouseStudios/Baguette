@@ -1,5 +1,6 @@
 *-backups/
 *.kicad_prl
+*.lck
 *-cache
 *.zip
 *.pdf
